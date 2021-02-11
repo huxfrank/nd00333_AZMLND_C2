@@ -5,6 +5,8 @@
 2. [Architectural Diagram](#architecture)
 3. [Future Work](#future-work)
 4. [Key Steps](#screenshots)
+	1. [MLStudio](#ml-studio)
+	2. [Jupyter Notebook](#jupyter)
 5. [Screencast Link](#screencast)
 6. [Standout Suggestions](#standsugg)
 
@@ -25,7 +27,29 @@ Finally, a screencast showcasing the entire process of the working ML applicatio
 
 
 ## Key Steps <a name="screenshots" />
+**ML Studio Steps** <a name="ml-studio" />
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+<img src="architecture.JPG"
+     alt="System Architecture" />
+<img src="architecture.JPG"
+     alt="System Architecture" />
+<img src="architecture.JPG"
+     alt="System Architecture" />
+<img src="architecture.JPG"
+     alt="System Architecture" />
+<img src="architecture.JPG"
+     alt="System Architecture" />
+<img src="architecture.JPG"
+     alt="System Architecture" />
+<img src="architecture.JPG"
+     alt="System Architecture" />
+<img src="architecture.JPG"
+     alt="System Architecture" />
+<img src="architecture.JPG"
+     alt="System Architecture" />
+<img src="architecture.JPG"
+     alt="System Architecture" />
+**Jupyter Notebook Steps** <a name="jupyter" />
 
 ## Screencast Link <a name="screencast" />
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
