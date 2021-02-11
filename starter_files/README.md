@@ -18,9 +18,8 @@ Finally, a screencast showcasing the entire process of the working ML applicatio
 
 
 ## Architectural Diagram <a name="architecture" />
-<img src="architecture.jpg"
-     alt="System Architecture"
-     style="float: left; margin-right: 10px;" />
+<img src="architecture.JPG"
+     alt="System Architecture" />
 	 
 ## Future Work <a name="future-work" />
 
