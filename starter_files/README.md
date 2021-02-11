@@ -65,7 +65,7 @@ Finally, a screencast showcasing the entire process of the working ML applicatio
      alt="Notebook Details" />
 	 
 ## Screencast Link <a name="screencast" />
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+**https://youtu.be/LDm8n7IbfDA**
 
 ## Standout Suggestions <a name="standsugg" />
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
