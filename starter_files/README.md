@@ -29,28 +29,41 @@ Finally, a screencast showcasing the entire process of the working ML applicatio
 ## Key Steps <a name="screenshots" />
 **ML Studio Steps** <a name="ml-studio" />
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
-<img src="architecture.JPG"
-     alt="System Architecture" />
-<img src="architecture.JPG"
-     alt="System Architecture" />
-<img src="architecture.JPG"
-     alt="System Architecture" />
-<img src="architecture.JPG"
-     alt="System Architecture" />
-<img src="architecture.JPG"
-     alt="System Architecture" />
-<img src="architecture.JPG"
-     alt="System Architecture" />
-<img src="architecture.JPG"
-     alt="System Architecture" />
-<img src="architecture.JPG"
-     alt="System Architecture" />
-<img src="architecture.JPG"
-     alt="System Architecture" />
-<img src="architecture.JPG"
-     alt="System Architecture" />
+<img src="Screenshots/dataset.PNG"
+     alt="Dataset" />
+<img src="Screenshots/run-complete.PNG"
+     alt="Run Complete" />
+<img src="Screenshots/bestmodel1.PNG"
+     alt="Best Model" />
+<img src="Screenshots/bestmodel2.PNG"
+     alt="Best Model cont." />
+<img src="Screenshots/appinsight-true.PNG"
+     alt="Application Insights Enabled" />
+<img src="Screenshots/logs2.PNG"
+     alt="Logs" />
+<img src="Screenshots/swagger2.PNG"
+     alt="Swagger" />
+<img src="Screenshots/benchmark1.PNG"
+     alt="Benchmark" />
+<img src="Screenshots/benchmark2.PNG"
+     alt="Benchmark cont." />
+	 
 **Jupyter Notebook Steps** <a name="jupyter" />
-
+<img src="Screenshots/Notebook/notebook-dataset.PNG"
+     alt="Notebook Dataset" />
+<img src="Screenshots/Notebook/pipeline.PNG"
+     alt="Pipeline" />
+<img src="Screenshots/Notebook/pipeline-run.PNG"
+     alt="Pipeline Run" />	 
+<img src="Screenshots/Notebook/pipeline-running.PNG"
+     alt="Pipeline Running" />
+<img src="Screenshots/Notebook/pipeline-endpoint.PNG"
+     alt="Pipeline Endpoint" />
+<img src="Screenshots/Notebook/pipeline-publishedoverview.PNG"
+     alt="Pipeline Published Overview" />
+<img src="Screenshots/Notebook/notebook-details.PNG"
+     alt="Notebook Details" />
+	 
 ## Screencast Link <a name="screencast" />
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
