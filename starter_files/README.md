@@ -101,7 +101,7 @@ indicating that the model is not perfect and requires further fine tuning. Depen
      alt="Pipeline Published Overview" />
 	 
 	 This is the run details for the endpoint triggered run. As the RunDetails widget wasn't very verbose, I also included the execution summary.
-<img src="Screenshots/Notebook/rundetails1.PNG"
+<img src="Screenshots/Notebook/rundetails.PNG"
      alt="Notebook Details" />
 <img src="Screenshots/Notebook/rundetails2.PNG"
      alt="Notebook Details2" />
