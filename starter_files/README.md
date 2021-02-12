@@ -24,7 +24,16 @@ Finally, a screencast showcasing the entire process of the working ML applicatio
      alt="System Architecture" />
 	 
 ## Future Work <a name="future-work" />
+Now that we have a working pipeline, pipeline endpoint, and AutoML endpoint, there are a few steps that can be taken to improve the project overall.
+One possible avenue of improvement would be to set up dataset monitors that would trigger training of the model if the accuracy of it falls below a certain point or if the dataset it was trained on becomes obselete or outdated.
 
+Another possible avenue of improvement is to flesh out a front end for the endpoints so that anyone seeking to use the model for their own purposes has an easy way to access it. This would include granting certain permissions to
+anyone who wanted to use the model but not giving them full access to the model itself.
+
+The model itself is not 100% accurate so further work could be done on tuning the hyperparameters to increase accuracy of the model itself. The confusion matrix below shows that it still gives false positives and false negatives
+indicating that the model is not perfect and requires further fine tuning. Depending on the intended purpose for the model, perhaps this degree of accuracy is good enough but there is always room for improvement.
+<img src="Screenshots/Notebook/confusionmatrix.PNG"
+     alt="Matrix" />
 
 ## Key Steps <a name="screenshots" />
 **ML Studio Steps** <a name="ml-studio" />
@@ -91,10 +100,13 @@ Finally, a screencast showcasing the entire process of the working ML applicatio
      alt="Pipeline Published Overview" />
 	 
 	 This is the run details for the endpoint triggered run. As the RunDetails widget wasn't very verbose, I also included the execution summary.
-<img src="Screenshots/Notebook/rundetails.PNG"
+<img src="Screenshots/Notebook/rundetails1.PNG"
+     alt="Notebook Details" />
+<img src="Screenshots/Notebook/rundetails2.PNG"
      alt="Notebook Details" />
 	 
 	 I wanted to include the original pipeline run and best model compared to the triggered pipeline run and best model.
+	 
 	 Original Run
 <img src="Screenshots/Notebook/extra3.PNG"
      alt="Original Run" />
@@ -107,9 +119,11 @@ Finally, a screencast showcasing the entire process of the working ML applicatio
 <img src="Screenshots/Notebook/extra4.PNG"
      alt="Triggered Run" />
 <img src="Screenshots/Notebook/extra5.PNG"
-     alt="Triggered Best Model
+     alt="Triggered Best Model />
 <img src="Screenshots/Notebook/rerun-bestmodel.PNG"
      alt="Triggered Best Model Details" />
+	 
+	 The AUC_weighted is slightly better on the rerun and accuracy goes up slightly as well.
 	 
 ## Screencast Link <a name="screencast" />
 **https://youtu.be/LDm8n7IbfDA**
