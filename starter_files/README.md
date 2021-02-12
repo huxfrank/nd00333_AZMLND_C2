@@ -28,39 +28,69 @@ Finally, a screencast showcasing the entire process of the working ML applicatio
 
 ## Key Steps <a name="screenshots" />
 **ML Studio Steps** <a name="ml-studio" />
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+The first step was to upload the dataset and register it to Azure ML Studio so it is available for use.
 <img src="Screenshots/dataset.PNG"
      alt="Dataset" />
+
+The next step was to create a AutoML run using the bankmarketing dataset in order to find the best model so we can deploy it.
 <img src="Screenshots/run-complete.PNG"
      alt="Run Complete" />
+	 
+This is the best model we found. It's a VotingEnsemble comprised of XGBoostClassifier and LightGBM with accuracy 0.91927.
 <img src="Screenshots/bestmodel1.PNG"
-     alt="Best Model" />
+     alt="Best Model" />	 
 <img src="Screenshots/bestmodel2.PNG"
      alt="Best Model cont." />
+	 
+Once we had our best model, we deployed our model with authentication and application insights enabled so we would be able to create and monitor our endpoint via logging.
 <img src="Screenshots/appinsight-true.PNG"
      alt="Application Insights Enabled" />
+	 
+	 This is an example of the logging we would see as different requests hit our endpoint.
 <img src="Screenshots/logs2.PNG"
      alt="Logs" />
+	
+Once the endpoint was deployed and running, this is the JSON API that was created by Swagger. The following screenshots show the different HTTP requests and responses available.
+<img src="Screenshots/swagger1.PNG"
+     alt="Swagger" />	 
 <img src="Screenshots/swagger2.PNG"
      alt="Swagger" />
+<img src="Screenshots/swagger3.PNG"
+     alt="Swagger" />
+	 
+This is the result of the Apache Benchmark. You can see when we used the endpoint.py to pass it JSON objects and the results returned ie. yes/no. It also gives metrics on connection
+times and how long it took for requests to be served.
 <img src="Screenshots/benchmark1.PNG"
      alt="Benchmark" />
 <img src="Screenshots/benchmark2.PNG"
      alt="Benchmark cont." />
 	 
+	 
 **Jupyter Notebook Steps** <a name="jupyter" />
 <img src="Screenshots/Notebook/notebook-dataset.PNG"
      alt="Notebook Dataset" />
+	 
+	 
 <img src="Screenshots/Notebook/pipeline.PNG"
      alt="Pipeline" />
+	 
+	 
 <img src="Screenshots/Notebook/pipeline-run.PNG"
-     alt="Pipeline Run" />	 
+     alt="Pipeline Run" />	
+
+	 
 <img src="Screenshots/Notebook/pipeline-running.PNG"
      alt="Pipeline Running" />
+	 
+	 
 <img src="Screenshots/Notebook/pipeline-endpoint.PNG"
      alt="Pipeline Endpoint" />
+	 
+	 
 <img src="Screenshots/Notebook/pipeline-publishedoverview.PNG"
      alt="Pipeline Published Overview" />
+	 
+	 
 <img src="Screenshots/Notebook/notebook-details.PNG"
      alt="Notebook Details" />
 	 
