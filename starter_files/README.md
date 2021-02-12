@@ -32,6 +32,7 @@ anyone who wanted to use the model but not giving them full access to the model 
 
 The model itself is not 100% accurate so further work could be done on tuning the hyperparameters to increase accuracy of the model itself. The confusion matrix below shows that it still gives false positives and false negatives
 indicating that the model is not perfect and requires further fine tuning. Depending on the intended purpose for the model, perhaps this degree of accuracy is good enough but there is always room for improvement.
+
 <img src="Screenshots/Notebook/confusionmatrix.PNG"
      alt="Matrix" />
 
@@ -103,7 +104,7 @@ indicating that the model is not perfect and requires further fine tuning. Depen
 <img src="Screenshots/Notebook/rundetails1.PNG"
      alt="Notebook Details" />
 <img src="Screenshots/Notebook/rundetails2.PNG"
-     alt="Notebook Details" />
+     alt="Notebook Details2" />
 	 
 	 I wanted to include the original pipeline run and best model compared to the triggered pipeline run and best model.
 	 
@@ -119,7 +120,7 @@ indicating that the model is not perfect and requires further fine tuning. Depen
 <img src="Screenshots/Notebook/extra4.PNG"
      alt="Triggered Run" />
 <img src="Screenshots/Notebook/extra5.PNG"
-     alt="Triggered Best Model />
+     alt="Triggered Best Model" />
 <img src="Screenshots/Notebook/rerun-bestmodel.PNG"
      alt="Triggered Best Model Details" />
 	 
