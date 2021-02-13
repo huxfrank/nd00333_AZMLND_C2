@@ -3,7 +3,7 @@ import json
 
 # URL for the web service, should be similar to:
 # 'http://8530a665-66f3-49c8-a953-b82a2d312917.eastus.azurecontainer.io/score'
-scoring_uri = 'http://01c22f03-42dc-4c86-8705-14f787d7ef46.southcentralus.azurecontainer.io/score'
+scoring_uri = 'https://southcentralus.api.azureml.ms/pipelines/v1.0/subscriptions/5a4ab2ba-6c51-4805-8155-58759ad589d8/resourceGroups/aml-quickstarts-138755/providers/Microsoft.MachineLearningServices/workspaces/quick-starts-ws-138755/PipelineRuns/PipelineSubmit/65fd3569-5caf-42eb-bdbb-e9e0a8fa13c4'
 # If the service is authenticated, set the key or token
 key = '0bRAL6lvPxOxdXcqYZbvfaiI6LtwmcdS'
 
