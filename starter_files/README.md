@@ -8,7 +8,6 @@
 	1. [MLStudio](#ml-studio)
 	2. [Jupyter Notebook](#jupyter)
 5. [Screencast Link](#screencast)
-6. [Standout Suggestions](#standsugg)
 
 
 ## Overview <a name="overview" />
@@ -60,8 +59,14 @@ indicating that the model is not perfect and requires further fine tuning. Depen
 	 This is an example of the logging we would see as different requests hit our endpoint.
 <img src="Screenshots/logs2.PNG"
      alt="Logs" />
+	 
+	 This is the result of running endpoint.pu in the terminal.
+<img src="Screenshots/endpoint_result.PNG"
+     alt="Swagger" />	
 	
-	 Once the endpoint was deployed and running, this is the JSON API that was created by Swagger. The following screenshots show the different HTTP requests and responses available.
+	 Once the endpoint was deployed and running, this is the JSON API that was created by Swagger. The following screenshots show swagger running on localhost URLs as well as the different HTTP requests and responses available.
+<img src="Screenshots/swagger-run.PNG"
+     alt="Swagger" />	
 <img src="Screenshots/swagger1.PNG"
      alt="Swagger" />	 
 <img src="Screenshots/swagger2.PNG"
@@ -127,5 +132,5 @@ indicating that the model is not perfect and requires further fine tuning. Depen
 	 The AUC_weighted is slightly better on the rerun and accuracy goes up slightly as well.
 	 
 ## Screencast Link <a name="screencast" />
-**https://youtu.be/LDm8n7IbfDA**
+**https://youtu.be/9IxFIbo_TBw**
 
