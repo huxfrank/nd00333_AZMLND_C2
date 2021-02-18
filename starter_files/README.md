@@ -60,7 +60,7 @@ indicating that the model is not perfect and requires further fine tuning. Depen
 <img src="Screenshots/logs2.PNG"
      alt="Logs" />
 	 
-	 This is the result of running endpoint.pu in the terminal.
+	 This is the result of running endpoint.py in the terminal.
 <img src="Screenshots/endpoint_result.PNG"
      alt="Swagger" />	
 	
